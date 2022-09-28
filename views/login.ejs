@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/loginStyle.css">
+    <title>LOGIN</title>
+    <style>
+        body{
+            font-family: 'Saira', sans-serif;
+            overflow-x: hidden;
+        }
+        .input-c{
+            border-top: none ;
+            border-left: none;
+            border-right:none ;
+        }
+    </style>
+</head>
+<body>
+    <div class="row mt-2">
+        <div class="col-3 offset-4">
+            <img src="/images/sias-logo.svg" alt="">
+        </div>
+    </div>
+    <div class="login-form">
+      <form action="/login" method="post">
+        <h1>Login</h1>
+        <div class="content">
+          <div class="input-field">
+            <select name="username">
+              <option value="admin">Admin</option>
+              <option value="alumni">Alumni</option>
+              <option value="cs">Dept of Computer Science</option>
+              <option value="biotechnology">Dept of Biotechnology</option>
+              <option value="microbiology">Dept of Microbiology</option>
+              <option value="foodtechnology">Dept of Foodtechnology</option>
+              <option value="psychology">Dept of psychology</option>
+              <option value="physics">Dept of Physics</option>
+              <option value="commerce">Dept of Commerce</option>
+              <option value="management">Dept of management</option>
+              <option value="economics">Dept of economics</option>
+              <option value="if">Dept of Islamic Finance</option>
+              <option value="jmc">Dept of JMC</option>
+              <option value="english">Dept of English</option>
+              <option value="is">Dept of Islamic study</option>
+              <option value="pe">Dept of Physical Education</option>
+
+            </select>
+          </div>
+          <div class="input-field">
+            <input type="password" placeholder="Password" name="password" autocomplete="new-password">
+          </div>
+            </div>
+        <div class="action">
+              <button  type="submit" class="btn btn-success">Sign in</button>
+        </div>
+      </form>
+    </div>
+    
+
+    
+</body>
+</html>
